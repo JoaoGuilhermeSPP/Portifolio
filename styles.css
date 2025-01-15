@@ -1,42 +1,55 @@
 body{
-background-color: #c0a45f;
+background-color: #A58B80;
 }
-
+.portrait{
+    border-radius: 400px;
+    width: 400px;
+    height: 400px;
+    margin-top: -60%;
+    
+}
 .SideBar{
 position:fixed;
 top: 0;
 left: 0;
 bottom: 0;
-width: 150px;
-background-color: #4e6dc9;
+width: 350px;
+background-color:#142D2B;
 padding: 5%;
 overflow-y: auto;
 z-index: 999;
 }
+
 .menu{
  list-style: none;
  margin: 0;
  padding: 0;
+ margin-top: 50%;
 
 }
 .menu li{
-
+font-family: system-ui;
 margin-bottom: 80px;
-font-size: 50px;
+font-size: 85px;
+
 
 }
-.menu a{
 
+.menu a{
+    
     display:inline-block;
-    padding: 35px;
-    border-radius: 80px;
+
+    width:400px;
+    height:100px;
+    padding: 25px;
+    border-radius: 10px 10px 100px 10px;
     text-decoration: none;
-    color:#e6b535;
+    color:#80BAB4;
 
 }
 .menu a:hover{
-    background-color: #4e3e13;
-    color:#516dc0;
+    background-color: #A58B80;
+    color:#83d1c7;
 }
 
 .title{
@@ -45,14 +58,24 @@ font-size: 50px;
     text-decoration: underline;
     text-decoration-color: #4e3e13;
     text-decoration-thickness: 7px;
-    color: #4e6dc9;
+    color: #83d1c7;
     font-size: 180px;
-    text-shadow: 4px 4px 4px rgb(66, 66, 22);
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
-p{
+p, .Eu{
+    margin-left: auto;
+    margin-right: auto;
+    width: 29em;
+    background-color: #887268;
     text-align: center;
+    border-radius: 10px 10px 100px 10px;
     font-family: system-ui;
     font-size:85px;
-    color:#516dc0;
+    color:#83d1c7;
+    font-weight: bold;
+}
+p{
+    border: 0px solid #4e3e13;
+    padding: 5px;
 }
 
