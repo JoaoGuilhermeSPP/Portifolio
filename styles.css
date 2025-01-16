@@ -1,5 +1,9 @@
+*{margin: 0; padding: 0;}
+
 body{
 background-color: #A58B80;
+padding: 20;
+text-align: center;
 }
 .portrait{
     border-radius: 400px;
@@ -53,6 +57,7 @@ font-size: 85px;
 }
 
 .title{
+   
     font-family: system-ui;
     text-align:center;
     text-decoration: underline;
@@ -62,8 +67,11 @@ font-size: 85px;
     font-size: 180px;
     text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
-p, .Eu{
-    margin-left: auto;
+.title{
+    margin-left: 20%;
+}
+.Eu{
+    margin-left: 36%;
     margin-right: auto;
     width: 29em;
     background-color: #887268;
@@ -74,8 +82,49 @@ p, .Eu{
     color:#83d1c7;
     font-weight: bold;
 }
-p{
+.Eu{
     border: 0px solid #4e3e13;
     padding: 5px;
 }
 
+.slideShow{
+        position: relative;
+        width: 45%;
+        height: 600px;
+        margin-left: 37%;
+        margin-top: 5%;
+        border-radius: 100px 10px 100px 10px;
+        background-color: #887268;
+        overflow: hidden;
+}
+.slideShow img{
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    animation: fade 4s infinite;
+}
+.slideShow a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+@keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    33% {
+      opacity: 1;
+    }
+    53% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
